@@ -20,7 +20,7 @@ img {
     font-style: normal;
 }
 
-.social:hover {
+.social:hover, .nav-link:hover {
     color: var(--text-hover-color);
 }
 
@@ -76,4 +76,14 @@ body {
 html, body {
     max-width: 100%;
     overflow-x: hidden;
+}
+
+.nav-link {
+    font-size: 1.5rem;
+       color: var(--text-color);
+    font-family: 'VT323';
+}
+
+#projects-title {
+    font-size: 1.5rem;
 }
