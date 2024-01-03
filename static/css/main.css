@@ -1,0 +1,53 @@
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+#socials {
+    margin-left: 3em;
+    margin-top: 0.1em;
+    font-size: 1.5em;
+}
+
+#offcanvasNavbar.show > .offcanvas-body > .navbar-nav > #socials,
+#offcanvasNavbar.showing > .offcanvas-body > .navbar-nav > #socials,
+#offcanvasNavbar.hiding > .offcanvas-body > .navbar-nav > #socials {
+    margin-left: 4px;
+    margin-top: 0.5em;
+}
+
+#offcanvasNavbar.show > .offcanvas-body > .navbar-nav > #socials > .nav-link,
+#offcanvasNavbar.showing > .offcanvas-body  > .navbar-nav > #socials > .nav-link,
+#offcanvasNavbar.hiding > .offcanvas-body  > .navbar-nav > #socials > .nav-link {
+    margin-right: 0.5em;
+}
+
+.main-content {
+    background-color: white;
+    width: 85%;
+}
+
+.hero-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+@media (min-width: 992px) {
+    .main-content {
+        width: 65%;
+    }
+}
+
+@media (max-width: 577px) {
+    .main-content {
+        width: 100%;
+    }
+}
+
+blockquote {
+    background-color: #F5F5F5;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 18px;
+    padding-bottom: 1px;
+}
